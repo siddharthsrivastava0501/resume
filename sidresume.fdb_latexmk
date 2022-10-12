@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1656285408 "/Users/siddharthsrivastava/Mirror/Resume/newresume/sidresume.tex" "sidresume.pdf" "sidresume" 1656285680
-  "/Users/siddharthsrivastava/Mirror/Resume/newresume/sidresume.tex" 1656285679 9187 5d58c95b42189635fb04fe1be3d67e08 ""
+["pdflatex"] 1665613949 "/Users/siddharthsrivastava/Mirror/Resume/newresume/sidresume.tex" "sidresume.pdf" "sidresume" 1665613949
+  "/Users/siddharthsrivastava/Mirror/Resume/newresume/sidresume.tex" 1665613948 9260 9e8c9f034f0bef94b4bbaed13491880c ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/ecbx0900.tfm" 1136768653 3584 1a7de6c99457381c64abc1a7c545505f ""
@@ -8,6 +8,7 @@
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/ecrm0900.tfm" 1136768653 3584 d3d8ac8b25ca19c0a40b86a5db1e8ccc ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/ecrm1440.tfm" 1136768653 3584 3169d30142b88a27d4ab0e3468e963a2 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/ecti0900.tfm" 1136768653 3072 a603fa6d934ebc72197ed1c389943d86 ""
+  "/usr/local/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/ectt0900.tfm" 1136768653 1536 ae7aab2f8a4bc9edfce2899f53ba88c3 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex9.tfm" 1246382020 996 a18840b13b499c08ac2de96a99eda4bc ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1136768653 1512 f21f83efb36853c0b70002322c1ab3ad ""
@@ -21,6 +22,7 @@
   "/usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb" 1215737283 135942 859a90cad7494a1e79c94baf546d7de5 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb" 1215737283 149037 995a6f1e12c1d647b99b1cf55db78699 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb" 1215737283 183673 6df73819bb3e1246a6315a4913a2d331 ""
+  "/usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb" 1215737283 170827 2e4b634de7b58578eae1dc93e51dfe48 ""
   "/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2020/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1575674566 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "/usr/local/texlive/2020/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty" 1576625341 40635 c40361e206be584d448876bba8a64a3b ""
@@ -41,6 +43,7 @@
   "/usr/local/texlive/2020/texmf-dist/tex/latex/base/exscale.sty" 1580683321 2582 740b94c0cd36fe969fdd17c721f35f3d ""
   "/usr/local/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty" 1581632200 4947 0c2888dd88121ae675fc6e82213623ba ""
   "/usr/local/texlive/2020/texmf-dist/tex/latex/base/ifthen.sty" 1580683321 5159 892429808d9e0e2b3548aaefd9a06ed0 ""
+  "/usr/local/texlive/2020/texmf-dist/tex/latex/base/t1cmtt.fd" 1580683321 2444 92c1f2a3fb5fbd5ac60f99eac55c9b29 ""
   "/usr/local/texlive/2020/texmf-dist/tex/latex/enumitem/enumitem.sty" 1561238569 51697 f8f08183cd2080d9d18a41432d651dfb ""
   "/usr/local/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.sty" 1569190624 45259 743c52a37a6e5ed83cfe0e128b2da10d ""
   "/usr/local/texlive/2020/texmf-dist/tex/latex/extsizes/extarticle.cls" 1137110130 20602 3112294ba237d94ce4a1502cfef3594f ""
@@ -74,11 +77,11 @@
   "/usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1591958019 2432460 7059da768c9f9dfc5ab09a9de2aaf6a0 ""
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
   "resume.cls" 1656285347 5017 33ad5e6d1e5bab95dc03c1f6fcacdaa5 ""
-  "sidresume.aux" 1656285408 662 b2b94621371df8d9296b8bf5bec1b851 "pdflatex"
-  "sidresume.out" 1656285408 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "sidresume.tex" 1656285679 9187 5d58c95b42189635fb04fe1be3d67e08 ""
+  "sidresume.aux" 1665613949 662 b2b94621371df8d9296b8bf5bec1b851 "pdflatex"
+  "sidresume.out" 1665613949 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "sidresume.tex" 1665613948 9260 9e8c9f034f0bef94b4bbaed13491880c ""
   (generated)
-  "sidresume.pdf"
   "sidresume.log"
+  "sidresume.pdf"
   "sidresume.aux"
   "sidresume.out"
