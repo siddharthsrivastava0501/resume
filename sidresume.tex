@@ -2,23 +2,34 @@
 \usepackage[left=0.4in,top=0.4in,right=0.4in,bottom=0.4in]{geometry}
 \usepackage{verbatim}
 \usepackage{multicol}
-\usepackage[hidelinks]{hyperref}
+\usepackage[]{hyperref}
 \usepackage[T1]{fontenc}
 \usepackage[inline]{enumitem}
 \usepackage{tgadventor}
 \usepackage[dvipsnames]{xcolor}
 
+
+\hypersetup{
+    colorlinks,
+    linkcolor={red!50!black},
+    citecolor={blue!50!black},
+    urlcolor={blue!80!black}
+}
+
 \name{Siddharth Srivastava}
-\address{siddharth.srivastava@warwick.ac.uk \\ \url{siddharthsrivastava.co.uk}} 
+\address{siddharth.srivastava23@imperial.ac.uk \\ \href{https://siddharthsrivastava.co.uk}{siddharthsrivastava.co.uk}} 
 
 \raggedbottom
 
 \begin{document}
 
     \begin{rSection}{Education}
-        \begin{rSubsection}{University of Warwick}{September 2020 - July 2024}{MEng Computer Science}{Coventry, United Kingdom}{}
-        \item Modules: Functional Programming, Algorithms, Advanced Computer Architecture, Computational Physics, \\Electrical and Electronic Circuits
-        \item First Class Honours (20/21 \& 21/22)
+        \begin{rSubsection}{Imperial College London}{September 2023 - Present}{MSc Advanced Computing}{London, United Kingdom}{}
+            \item 
+        \end{rSubsection}
+        \begin{rSubsection}{University of Warwick}{September 2020 - July 2023}{MEng Computer Science}{Coventry, United Kingdom}{}
+        \item Modules: Functional Programming, Algorithms, Advanced Computer Architecture, Computational Physics, \\Electrical and Electronic Circuits, Machine Learning, 
+        \item First Class Honours (20/21, 21/22, \& 2023, 73.8\% overall)
         \end{rSubsection}
         \begin{rSubsection}{Overseas Family School}{August 2018 - May 2020}{International Baccalaureate Diploma}{Singapore}{}
         \item 43/45 IB Diploma points (Higher Level Mathematics, Physics, Economics)
@@ -26,13 +37,18 @@
     \end{rSection}
 
     \begin{rSection}{Experience}
+        \begin{rSubsection}{The Trade Desk}{July 2023 - September 2023}{Software Engineering Intern - Connected TV Inventory}{London}
+            {The Trade Desk is one of the world's largest demand side platforms powering programmatic advertising.}
+            \item Apache Airflow, Apache Spark, Elastic MapReduce, Grafana, C\#, Python, Vertica, SQL. 
+        \end{rSubsection}
+
         \begin{rSubsection}{American Express}{June 2022 - August 2022}{Technology Engineer - Global Commercial Services}{London}{}
             \item Collaborated in a group of 6 interns and 3 full time engineers on a software project, following the \textbf{Scrum} methodology;
             \item Designed and engineered a micro-services based web application to facilitate data migration between the old FXIP platform to the new Global Pay platform; built using \textbf{Kotlin}, \textbf{Spring Boot}, \textbf{React}, \textbf{PostgreSQL} and \textbf{Apache Kafka};
             \item Implemented containerization using \textbf{Docker} to isolate the services and databases into their own containers, facilitating a streamlined deployment to production.
         \end{rSubsection}
 
-        \begin{rSubsection}{{\href{https://warwick.ac.uk/fac/sci/wmg/education/undergraduate/student-projects/warwick-moto/}{Warwick Moto}}}{November 2020 - Present}{Mathematical Modelling \& Control Systems Engineer}{University of Warwick}
+        \begin{rSubsection}{{\href{https://warwick.ac.uk/fac/sci/wmg/education/undergraduate/student-projects/warwick-moto/}{Warwick Moto}}}{November 2020 - June 2023}{Mathematical Modelling \& Control Systems Engineer}{University of Warwick}
     {Warwick Moto is a student-led engineering team to build fully-electric race-spec superbike.}
             \item Designed algorithms in \textbf{Python} to compute an elevation cycle for the Isle of Man circuit using geographical data and a drive cycle;
             \item Engineered a 3 degree of freedom vehicle model in \textbf{Simulink} using the vehicle dynamics blockset to simulate longitudinal and lateral movement of the bike;
@@ -48,13 +64,8 @@
             \item Volunteered at the local vaccination site as a vaccinator to administer over \textbf{1000} COVID-19 jabs;
             \item Coordinated the IT response to manage the \textbf{Palantir Foundry} vaccine ordering platform and Outcomes for Health Point of Care system to ensure smooth operations.
         \end{rSubsection}
-
-        \begin{rSubsection}{Warwick Engineering Society}{November 2021 - June 2022}{Technology Ambassador}{University of Warwick}{}
-            \item Upgraded the EngSoc PDR progressive web application using {\bf axios} to fetch event data from an API and display it on the home screen, enhancing user experience.
-        \end{rSubsection}
     \end{rSection}
 
-    
     \begin{rSection}{Projects}
         \begin{rSubsection}{Miyagi}{React, Express, MongoDB}{CS261 Software Engineering}{}{A full-stack mentoring system developed in a group of 7 students in collaboration with Deutsche Bank}
             \item Developed the mentor-mentee matchmaking system using the \textbf{cosine similarity} metric based on expertise of mentors and needs of mentees;
@@ -64,73 +75,9 @@
             \item A Chrome Extension that uses the Deepgram and Chrome APIs to control the Chrome browser using voice control commands;
             \item The project was featured on Deepgram's \href{https://developers.deepgram.com/blog/2022/03/voice-control-browser-stemm/}{blog}. 
         \end{rSubsection}
-        \begin{rSubsection}{Soulfood}{React Native, Firebase Auth, Cloud Firestore, Axios}{Warwick Hack 2021}{}{}
-            \item An cross-platform mobile application that pulls recipes from an API and allows users to `like' recipes to save to their profile.
-        \end{rSubsection}
     \end{rSection}
     \begin{rSection}{Skills}
         \textbf{Languages:} Python, Java, HTML, CSS, JavaScript, PHP, SQL, MATLAB, Simulink, Kotlin\\
         \textbf{Frameworks/Tools:} matplotlib, numpy, scipy, pandas, Flask, React, React Native, Beautiful Soup, Tensorflow, Keras \\ 
     \end{rSection}
-    \begin{comment}
-
-    
-    \begin{rSection}{Skills}
-        \textbf{Languages}  \\
-        Python, Java, HTML, CSS, JavaScript, SQL, MATLAB, Simulink, Kotlin \\
-        \textbf{Libraries / Frameworks}  \\
-        matplotlib, numpy, pandas, Flask, React, React Native, Beautiful Soup \\
-        \textbf{Others} \\
-        Git, \LaTeX, REST
-    \end{rSection}
-
-    \begin{rSection}{Courses}
-
-        {CS50's Introduction to Artificial Intelligence with Python} \hfill {\em Harvard University - May 2020}
-
-        {Analysing Data with Python} \hfill {\em IBM - April 2020}
-
-        {DAT275X: Principles of Machine Learning: Python Edition} \hfill {\em Microsoft - June 2019}
-
-        {DAT236X: Deep Learning Explained.} \hfill {\em Microsoft - July 2019}
-
-        {Front-end Web Development with React} \hfill {\em HKUST - June 2020}
-
-    \end{rSection}
-
-    \begin{rSection}{Experience}
-        {\bf American Express - Global Commercial Services} \hfill {\bf June 2022 - August 2022}\\
-        {\em Summer Technology Engineer} \hfill {\em London}\\
-        {\bf Warwick Engineering Society} \hfill {\bf November 2021 - June 2022}\\
-        {\em Technology Ambassador - University of Warwick}
-        \setlist{nolistsep}
-        \begin{itemize}[nolistsep]
-            
-        \end{itemize}
-        {\bf\href{https://warwick.ac.uk/fac/sci/wmg/education/undergraduate/student-projects/warwick-moto/}{Warwick Moto} - Mathematical Modelling \& Control Systems} \hfill {\bf November 2020 - Present}\\
-        {\em University of Warwick, United Kingdom}\\
-        
-        \setlist{nolistsep}
-        \begin{itemize}[nolistsep]
-            \item Designed algorithms in Python to compute an elevation cycle for the Isle of Man circuit using geographical data and a drive cycle
-            \item Engineered a 3 degree of freedom vehicle model in Simulink using the vehicle dynamics blockset to simulate longitudinal and lateral movement of the bike
-            \item Developed an algorithm to convert waypoint data of any racetrack into a steering cycle to simulate the running of a bike on a track
-            \item Programmed a new Electronic Control Unit with two CAN channels based on the Embed E400 Automative Controller using Simulink and CANalyzer
-            \item Implemented contactor sequencing to ensure safe startup, state transitions and shut down for the motor and inverter on the bike
-        \end{itemize}  
-        {\bf Primrose Hill Surgery - Administrator \& IT Support} \hfill {\bf July 2021 - September 2021}\\
-        {\em National Health Service, Public Health England, United Kingdom}
-        \setlist{nolistsep}
-        \begin{itemize}[nolistsep]
-            \item Utilized Pandas and NumPy to perform data analysis on vaccination data at the local vaccination site to enable equitable allocation of funds
-            \item Performed searches on EMIS to sort patients based on criterion to provide specialised care
-            \item Operated the NHS e-referral service to refer patients to hospitals for advanced care
-            \item Volunteered at the local vaccination site as a vaccinator to administer over 1000 COVID-19 jabs
-            \item Coordinated the IT response to manage the Palantir Foundry vaccine ordering platform and Outcomes for Health Point of Care system to ensure smooth operations
-        \end{itemize}  
-    \end{rSection}
-
-    \end{comment}        
-   
-       
 \end{document}
