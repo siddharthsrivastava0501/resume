@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.5)  31 JUL 2023 10:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.5)  7 AUG 2023 12:53
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -319,15 +319,15 @@ LaTeX Font Info:    ... okay on input line 24.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(28.90755pt, 539.69278pt, 28.90755pt)
-* v-part:(T,H,B)=(28.90755pt, 787.23175pt, 28.90755pt)
+* h-part:(L,W,R)=(21.68121pt, 554.14545pt, 21.68121pt)
+* v-part:(T,H,B)=(7.22743pt, 830.59198pt, 7.22743pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=539.69278pt
-* \textheight=787.23175pt
-* \oddsidemargin=-43.36244pt
-* \evensidemargin=-43.36244pt
-* \topmargin=-80.36244pt
+* \textwidth=554.14545pt
+* \textheight=830.59198pt
+* \oddsidemargin=-50.58878pt
+* \evensidemargin=-50.58878pt
+* \topmargin=-102.04256pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=9.0pt
@@ -386,7 +386,7 @@ Overfull \hbox (30.0pt too wide) in paragraph at lines 24--24
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--82
+Underfull \hbox (badness 10000) in paragraph at lines 90--92
 
  []
 
@@ -399,13 +399,13 @@ Package rerunfilecheck Info: File `sidresume.out' has not changed.
 Here is how much of TeX's memory you used:
  10105 strings out of 478268
  159823 string characters out of 5846348
- 483777 words of memory out of 5000000
+ 486776 words of memory out of 5000000
  28203 multiletter control sequences out of 15000+600000
  475310 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,5n,76p,791b,317s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrb0900.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrb1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb>
-Output written on sidresume.pdf (1 page, 102435 bytes).
+Output written on sidresume.pdf (1 page, 105221 bytes).
 PDF statistics:
  42 PDF objects out of 1000 (max. 8388607)
  28 compressed objects within 1 object stream
