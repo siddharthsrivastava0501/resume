@@ -27,6 +27,7 @@
 \usepackage{ifthen} % Required for ifthenelse statements
 \usepackage{setspace}
 \pagestyle{empty} % Suppress page numbers
+\usepackage[T1]{fontenc}
 
 %----------------------------------------------------------------------------------------
 %	HEADINGS COMMANDS: Commands for printing name and address
@@ -35,7 +36,7 @@
 \def \name#1{\def\@name{#1}} % Defines the \name command to set name
 \def \@name {} % Sets \@name to empty by default
 
-\def \addressSep {$\spadesuit$} % Set default address separator to a diamond
+\def \addressSep {$\spadesuit$} % Set default address separator to a spade
 
 % One, two or three address lines can be specified 
 \let \@addressone \relax
@@ -94,8 +95,7 @@
 
 % Defines the rSection environment for the large sections within the CV
 \newenvironment{rSection}[1]{ % 1 input argument - section name
-  \sectionskip
-  \MakeUppercase{\bf #1} % Section title
+  {\huge \textsc{#1}} % Section title
   \sectionlineskip
   \hrule % Horizontal line
   \begin{list}{}{ % List for each individual item in the section
@@ -133,7 +133,7 @@
 }
 
 % The below commands define the whitespace after certain things in the document - they can be \smallskip, \medskip or \bigskip
-\def\namesize{\huge} % Size of the name at the top of the document
+\def\namesize{\Huge} % Size of the name at the top of the document
 \def\addressskip{\smallskip} % The space between the two address (or phone/email) lines
 \def\sectionlineskip{\medskip} % The space above the horizontal line for each section 
 \def\nameskip{\smallskip} % The space after your name at the top
