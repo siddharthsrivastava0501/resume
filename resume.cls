@@ -20,7 +20,7 @@
 
 \ProvidesClass{resume}[2010/07/10 v0.9 Resume class]
 
-\LoadClass[9pt,a4paper]{extarticle} % Using extarticle here to set <10 pt font size
+\LoadClass[10pt,a4paper]{article} % Using extarticle here to set <10 pt font size
 
 \usepackage[parfill]{parskip} % Remove paragraph indentation
 \usepackage{array} % Required for boldface (\bf and \bfseries) tabular columns
@@ -95,7 +95,7 @@
 
 % Defines the rSection environment for the large sections within the CV
 \newenvironment{rSection}[1]{ % 1 input argument - section name
-  {\huge \textsc{#1}} % Section title
+  {\large \textsc{#1}} % Section title
   \sectionlineskip
   \hrule % Horizontal line
   \begin{list}{}{ % List for each individual item in the section
@@ -111,7 +111,7 @@
 %----------------------------------------------------------------------------------------
 
 \newenvironment{rSubsection}[5]{ % 5 input arguments - company name, dates, job title, location, extra information
- {\Large \bf #1} \hfill {#2} % Bold company name and date on the right
+ {\large \bf #1} \hfill {#2} % Bold company name and date on the right
  \ifthenelse{\equal{#3}{}}{}{ % If the third argument is not specified, don't print the job title and location line
   \\
   {\em #3} \hfill {\em #4} % Italic job title and location
@@ -133,8 +133,8 @@
 }
 
 % The below commands define the whitespace after certain things in the document - they can be \smallskip, \medskip or \bigskip
-\def\namesize{\Huge} % Size of the name at the top of the document
-\def\addressskip{\smallskip} % The space between the two address (or phone/email) lines
-\def\sectionlineskip{\medskip} % The space above the horizontal line for each section 
+\def\namesize{\huge} % Size of the name at the top of the document
+\def\addressskip{\smallbreak} % The space between the two address (or phone/email) lines
+\def\sectionlineskip{\smallskip} % The space above the horizontal line for each section 
 \def\nameskip{\smallskip} % The space after your name at the top
 \def\sectionskip{\smallskip} % The space after the heading section
